@@ -1,6 +1,8 @@
 # knowledge-search-dashboard
 # Knowledge Search Dashboard
 
+screen recording : https://drive.google.com/file/d/1nZMHEDJ2lnUz-wM58AyaStRShMAxzzlK/view?usp=sharing
+
 A hybrid search engine with a KPI dashboard built as an internship assignment.
 Combines BM25 lexical search + semantic vector search with a configurable
 alpha blending parameter. Fully runs on CPU, no GPU or paid cloud needed.
