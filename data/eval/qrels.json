@@ -1,0 +1,136 @@
+{
+    "q01": [
+        "pg1342_chunk0000",
+        "pg1342_chunk0001",
+        "pg1342_chunk0002",
+        "pg1342_chunk0003",
+        "pg1342_chunk0004"
+    ],
+    "q02": [
+        "pg2701_chunk0000",
+        "pg2701_chunk0001",
+        "pg2701_chunk0002",
+        "pg2701_chunk0003"
+    ],
+    "q03": [
+        "pg11_chunk0000",
+        "pg11_chunk0001",
+        "pg11_chunk0002",
+        "pg11_chunk0003"
+    ],
+    "q04": [
+        "pg1661_chunk0000",
+        "pg1661_chunk0001",
+        "pg1661_chunk0002",
+        "pg1661_chunk0003"
+    ],
+    "q05": [
+        "pg84_chunk0000",
+        "pg84_chunk0001",
+        "pg84_chunk0002",
+        "pg84_chunk0003"
+    ],
+    "q06": [
+        "pg345_chunk0000",
+        "pg345_chunk0001",
+        "pg345_chunk0002",
+        "pg345_chunk0003"
+    ],
+    "q07": [
+        "pg76_chunk0000",
+        "pg76_chunk0001",
+        "pg76_chunk0002",
+        "pg76_chunk0003"
+    ],
+    "q08": [
+        "pg98_chunk0000",
+        "pg98_chunk0001",
+        "pg98_chunk0002",
+        "pg98_chunk0003"
+    ],
+    "q09": [
+        "pg1232_chunk0000",
+        "pg1232_chunk0001",
+        "pg1232_chunk0002"
+    ],
+    "q10": [
+        "pg1080_chunk0000",
+        "pg1080_chunk0001",
+        "pg1080_chunk0002"
+    ],
+    "q11": [
+        "pg1342_chunk0005",
+        "pg1342_chunk0006",
+        "pg1342_chunk0007",
+        "pg1342_chunk0008"
+    ],
+    "q12": [
+        "pg2701_chunk0004",
+        "pg2701_chunk0005",
+        "pg2701_chunk0006"
+    ],
+    "q13": [
+        "pg11_chunk0004",
+        "pg11_chunk0005",
+        "pg11_chunk0006"
+    ],
+    "q14": [
+        "pg1661_chunk0004",
+        "pg1661_chunk0005",
+        "pg1661_chunk0006"
+    ],
+    "q15": [
+        "pg84_chunk0004",
+        "pg84_chunk0005",
+        "pg84_chunk0006"
+    ],
+    "q16": [
+        "pg345_chunk0004",
+        "pg345_chunk0005",
+        "pg345_chunk0006"
+    ],
+    "q17": [
+        "pg76_chunk0004",
+        "pg76_chunk0005",
+        "pg76_chunk0006"
+    ],
+    "q18": [
+        "pg98_chunk0004",
+        "pg98_chunk0005",
+        "pg98_chunk0006"
+    ],
+    "q19": [
+        "pg1232_chunk0003",
+        "pg1232_chunk0004",
+        "pg1232_chunk0005"
+    ],
+    "q20": [
+        "pg1080_chunk0003",
+        "pg1080_chunk0004"
+    ],
+    "q21": [
+        "pg1342_chunk0009",
+        "pg1342_chunk0010",
+        "pg1342_chunk0011"
+    ],
+    "q22": [
+        "pg2701_chunk0007",
+        "pg2701_chunk0008",
+        "pg2701_chunk0009"
+    ],
+    "q23": [
+        "pg11_chunk0007",
+        "pg11_chunk0008",
+        "pg11_chunk0009"
+    ],
+    "q24": [
+        "pg1661_chunk0007",
+        "pg1661_chunk0008",
+        "pg1661_chunk0009"
+    ],
+    "q25": [
+        "pg345_chunk0007",
+        "pg84_chunk0007",
+        "pg345_chunk0008"
+    ]
+}
