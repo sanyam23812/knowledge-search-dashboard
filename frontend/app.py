@@ -14,7 +14,12 @@ import streamlit as st
 # Make sure backend is importable
 sys.path.insert(0, str(Path(__file__).parent.parent / "backend"))
 
-from app.db import get_all_logs, get_metrics
+# Fix working directory so relative paths resolve correctly
+import os
+os.chdir(Path(__file__).parent.parent)
+
+from app.db import get_all_logs, get_metrics, init_db
+init_db()
 from app.search.bm25 import BM25Index
 from app.search.vector import VectorIndex
 from app.search.hybrid import HybridSearcher
@@ -36,12 +41,17 @@ st.set_page_config(
 @st.cache_resource
 def load_searcher():
     try:
+        # Explicitly use absolute path
+        base = Path(__file__).parent.parent
         bm25 = BM25Index()
+        bm25.index_dir = base / "data" / "index" / "bm25"
         bm25.load()
         vec = VectorIndex()
+        vec.index_dir = base / "data" / "index" / "vector"
         vec.load()
         return HybridSearcher(bm25, vec)
     except Exception as e:
+        st.error(f"Index load error: {e}")
         return None
 
 
