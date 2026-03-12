@@ -18,15 +18,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
-Then commit:
-```powershell
-git add up.bat README.md
-git commit -m "fix: update up.bat to handle protobuf fix and index path copying automatically"
-git push
-```
-
-After this a reviewer can clone and run `up.bat` and it will work! 🚀
-
 ## Quick Start (Windows)
 ```bash
 git clone https://github.com/sanyam23812/knowledge-search-dashboard.git
