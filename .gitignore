@@ -1,0 +1,13 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+data/index/bm25/*
+data/index/vector/*
+data/processed/*
+!data/**/.gitkeep
+node_modules/
+frontend/dist/
+*.db
