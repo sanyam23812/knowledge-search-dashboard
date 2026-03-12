@@ -88,7 +88,21 @@ if page == "🔍 Search":
 
     if query:
         with st.spinner("Searching..."):
-            results = searcher.search(query, top_k=int(top_k), alpha=alpha)
+            import uuid, time
+            from app.db import log_request
+            request_id = str(uuid.uuid4())
+            start = time.time()
+            results = searcher.search(query=query, top_k=int(top_k), alpha=alpha)
+            latency_ms = (time.time() - start) * 1000
+            log_request({
+                "request_id": request_id,
+                "query": query,
+                "latency_ms": latency_ms,
+                "top_k": int(top_k),
+                "alpha": alpha,
+                "result_count": len(results),
+                "error": None,
+            })
 
         st.markdown(f"**{len(results)} results** for `{query}`")
         st.divider()

@@ -6,6 +6,24 @@ Combines BM25 lexical search + semantic vector search with a configurable
 alpha blending parameter. Fully runs on CPU, no GPU or paid cloud needed.
 
 ---
+## Prerequisites
+- Python 3.11+
+- Node is not required (Streamlit only)
+- Run this once in PowerShell before anything else:
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+---
+
+Then commit:
+```powershell
+git add up.bat README.md
+git commit -m "fix: update up.bat to handle protobuf fix and index path copying automatically"
+git push
+```
+
+After this a reviewer can clone and run `up.bat` and it will work! 🚀
 
 ## Quick Start (Windows)
 ```bash
